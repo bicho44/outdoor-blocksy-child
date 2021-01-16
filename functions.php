@@ -3,7 +3,8 @@ if (! defined('WP_DEBUG')) {
 	die( 'Direct access forbidden.' );
 }
 
-/* Loading Styles via Child Theme HandBook
+/* 
+* Loading Styles via Child Theme HandBook
 * @link: https://developer.wordpress.org/themes/advanced-topics/child-themes/
 */
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
