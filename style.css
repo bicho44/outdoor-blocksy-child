@@ -1,7 +1,22 @@
 /**
- * Theme Name: BAriloche Outdoor
- * Description: Un Child Them de Blocksy, para Bariloche Outdoor donde pongo las modificaciones pertinentes
+ * Theme Name: Bariloche Outdoor
+ * Description: Un Child Theme de Blocksy, para Bariloche Outdoor donde pongo las modificaciones pertinentes
  * Author: IMG Digital
+ * Version: v1.0
  * Template: blocksy
  * Text Domain: imgd
  */
+
+ /* Typography for the Headers */
+ @font-face {
+    font-family: 'Angie';
+    src: url('font/AngieBlack.eot');
+    src: url('font/AngieBlack.eot?#iefix') format('embedded-opentype'),
+        url('font/AngieBlack.woff2') format('woff2'),
+        url('font/AngieBlack.woff') format('woff'),
+        url('font/AngieBlack.ttf') format('truetype'),
+        url('font/AngieBlack.svg#AngieBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
