@@ -10,17 +10,17 @@
  /* Typography for the Headers */
  @font-face {
     font-family: 'Angie';
-    src: url('/wp-content/themes/outdoor-blocksy-child/fonts/AngieBlack.eot');
-    src: url('/wp-content/themes/outdoor-blocksy-child/fonts/AngieBlack.eot?#iefix') format('embedded-opentype'),
-        url('/wp-content/themes/outdoor-blocksy-child/fonts/AngieBlack.woff2') format('woff2'),
-        url('/wp-content/themes/outdoor-blocksy-child/fonts/AngieBlack.woff') format('woff'),
-        url('/wp-content/themes/outdoor-blocksy-child/fonts/AngieBlack.ttf') format('truetype'),
-        url('/wp-content/themes/outdoor-blocksy-child/fonts/AngieBlack.svg#AngieBlack') format('svg');
+    src: url('fonts/AngieBlack.eot');
+    src: url('fonts/AngieBlack.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AngieBlack.woff2') format('woff2'),
+        url('fonts/AngieBlack.woff') format('woff'),
+        url('fonts/AngieBlack.ttf') format('truetype'),
+        url('fonts/AngieBlack.svg#AngieBlack') format('svg');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Angie', 'Times New Roman', Times, serif;
+    font-family: 'Angie', 'Times New Roman', Times, serif !important;
 }
